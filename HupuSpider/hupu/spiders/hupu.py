@@ -31,7 +31,7 @@ class NBASpider(scrapy.Spider):
 
 
 # 虎扑新闻
-class NBASpider(scrapy.Spider):
+class NewsSpider(scrapy.Spider):
     name = "news"
     allowed_domains = ["hupu.com"]
     start_urls = ['https://voice.hupu.com/nba']
